@@ -1,6 +1,6 @@
 //
-//  SSZipArchive.h
-//  SSZipArchive
+//  SSZipArchiveFix.h
+//  SSZipArchiveFix
 //
 //  Created by Sam Soffes on 7/21/10.
 //  Copyright (c) Sam Soffes 2010-2015. All rights reserved.
@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, SSZipArchiveErrorCode) {
 
 @protocol SSZipArchiveDelegate;
 
-@interface SSZipArchive : NSObject
+@interface SSZipArchiveFix : NSObject
 
 // Password check
 + (BOOL)isFilePasswordProtectedAtPath:(NSString *)path;
